@@ -1,5 +1,5 @@
 # Flask-server-web-app
-Flask server we app showing news stored on a MongoDB Database and IT infraestructure.  
+Web application with Flask server in Apache server showing news stored in a MongoDB Database  and IT infraestructure.  
 
 ## Developped by: 
 - Lourdes Linares-Barrera

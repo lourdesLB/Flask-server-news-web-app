@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Proyecto CIMSI</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+	<header>
+        <div class="navbar">
+            <a class="active">Inicio</a>
+            <a href="/noticias" >Noticias</a>
+        </div>
+    </header>
+    <div class="equipo">
+        <div class="carta">
+            <img src="{{ url_for('static', filename='pablo.png') }}" >
+            <h3>Pablo Reina Jiménez</h3>
+        </div>
+        <div class="carta">
+            <img src="{{ url_for('static', filename='lourdes.png') }}" >
+            <h3>María Lourdes Linares Barrera</h3>
+        </div>
+        <div class="carta">
+            <img src="{{ url_for('static', filename='paula.png') }}" >
+            <h3>Paula Gómez Matos</h3>
+        </div>
+        <div class="carta">
+            <img src="{{ url_for('static', filename='javi.png') }}" >
+            <h3>Francisco Javier Galán Sales</h3>
+        </div>
+        <div class="carta">
+            <img src="{{ url_for('static', filename='rocio.png') }}" >
+            <h3>Rocío Goñi Medina</h3>
+        </div>
+        <div class="carta">
+            <img src="{{ url_for('static', filename='pepe.png') }}" >
+            <h3>José Calderón Valdivia</h3>
+        </div>
+        <div class="carta">
+            <img src="{{ url_for('static', filename='ana1.png') }}" >
+            <h3>Ana Ruiz López</h3>
+        </div>
+        <div class="carta">
+            <img src="{{ url_for('static', filename='ana2.png') }}" >
+            <h3>Ana Casado Sanchez</h3>
+        </div>
+    </div>
+</body>
+</html>

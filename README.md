@@ -1,4 +1,4 @@
-# Flask-server-web-app
+# Newspaper-web-app
 Web application with Flask server in Apache server showing news stored in a MongoDB Database  and IT infraestructure.  
 
 ## Developped by: 
